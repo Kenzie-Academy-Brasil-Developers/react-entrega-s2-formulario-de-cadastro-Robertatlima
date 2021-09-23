@@ -73,6 +73,7 @@ const FormRegister = () => {
           label="Password"
           margin="normal"
           variant="outlined"
+          type="password"
           size="small"
           color="primary"
           {...register("password")}
@@ -86,6 +87,7 @@ const FormRegister = () => {
           margin="normal"
           variant="outlined"
           size="small"
+          type="password"
           color="primary"
           {...register("passwordconfirmed")}
           error={!!errors.passwordconfirmed}
